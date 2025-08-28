@@ -1,6 +1,6 @@
 extension=input("Enter file's name with extension: ").strip().lower()
-if extension.endswith("gip"):
-    print("image/gip")
+if extension.endswith("gif"):
+    print("image/gif")
 elif extension.endswith("jpg"):
     print("image/jpg")
 elif extension.endswith("jpeg"):
